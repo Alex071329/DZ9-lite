@@ -1,0 +1,5 @@
+set_elements = set(input('Введите элементы 1-го списка: '))
+new_set_elements = set(input('Введите элементы 2-го списка: '))
+result = list(set_elements - new_set_elements )
+result.sort()
+print('Результат:', ','.join(result))
